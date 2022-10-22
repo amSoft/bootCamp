@@ -1,0 +1,44 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(67, 100, 43);
+    /*transition: all 1s;*/
+   
+}
+.padre:hover .hijo{
+    /*
+    transform: translateX(100%);
+    background-color: blanchedalmond;
+    */
+    animation: mitraslacion 1s infinite;
+}
+
+@keyframes mitraslacion{
+    0%{
+        background-color: aqua;
+        transform: translateX(0%);
+        transform: translateY(0%);
+    }
+    25%{
+        transform: translateX(100%);
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateX(100%);
+        transform: translateY(100%);
+    }
+    75%{
+        transform: translateX(0%);
+        transform: translateY(100%);
+    }
+    100%{
+        background-color: brown;
+        transform: translateX(0%);
+        transform: translateY(00%);
+}

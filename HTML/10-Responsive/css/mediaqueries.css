@@ -1,0 +1,43 @@
+h1{
+    color:red;
+    font-size: 4rem;
+}
+
+p{
+    color:black;
+    font-size: 2rem;
+} 
+
+@media print{
+    h1{
+        color:blue;
+    }
+}
+
+@media (min-width:300px){
+    h1{
+        color:green;
+    }
+    p {
+        color:rgb(128, 0, 30);
+    }
+}
+@media (min-width:576px){
+    h1{
+        color:green;
+    }
+
+}
+
+@media (min-width:995px){
+    h1{
+        color:yellowgreen;
+    }
+
+}
+
+@media (orientation:landscape){
+    h1{
+        color:darkslategrey
+    }
+}

@@ -1,0 +1,18 @@
+h1{
+    color: blue !important; /* Hace que prevalezca sobre los demás*/
+}
+.h1-clase{
+    color: chocolate;
+}
+
+#h1-id{
+    color:cornflowerblue;
+}
+
+#h1-id.h1-clase {
+    color:maroon;
+}
+
+p{
+    color: red;
+}

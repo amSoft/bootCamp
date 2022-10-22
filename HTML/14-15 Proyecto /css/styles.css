@@ -1,0 +1,133 @@
+.btn-main, .btn-sec, .btn-sec-s, .btn-main-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #0075FF;
+  color: white;
+  border: none;
+}
+.btn-main:hover, .btn-sec:hover, .btn-sec-s:hover, .btn-main-s:hover {
+  background-color: rgb(33, 57, 193);
+}
+.btn-main-s {
+  font-size: 0.75;
+  padding: 0.1rem 1 rem;
+}
+
+.btn-sec, .btn-sec-s {
+  background-color: transparent;
+  color: black;
+  font-size: 2rem;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: #0075FF;
+  background-color: transparent;
+}
+.btn-sec-s {
+  font-size: 1rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu {
+  margin-bottom: 0;
+  padding: 5px;
+}
+.main-menu li {
+  display: inline;
+  list-style: none;
+  font-size: 1rem;
+}
+.main-menu li a {
+  color: #000;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
+
+.icon-sm i {
+  font-size: 0.75rem;
+  padding: 0.1rem 0.25rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+  color: #0075FF;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: #0075FF;
+  font-size: 15rem;
+  text-align: center;
+}
+.feature .description .title {
+  font-size: 2rem;
+  text-align: center;
+}
+.feature .description .text {
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+}
+.feature .cta {
+  margin-top: 3rem;
+  color: #0075FF;
+  font-weight: 600;
+  text-align: center;
+}
+
+.icon-desc {
+  displaY: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc .icon {
+  padding: 0;
+  font-size: 10rem;
+  color: #0075FF;
+}
+.icon-desc .title {
+  font-size: 1.5rem;
+  margin-top: -2rem;
+  font-weight: 600;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 2.5rem;
+  border-bottom: solid 1px rgb(43, 36, 36);
+}
+
+.logo a img {
+  max-width: 7rem;
+  color: red;
+}
+
+.sec-home {
+  display: flex;
+  width: 100%;
+  padding: 5rem;
+  margin: auto;
+  max-width: 80%;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075FF;
+}
+.sec-home .home-cta .home-title {
+  width: 20rem;
+  font-size: 4rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

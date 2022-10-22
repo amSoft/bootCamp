@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidad</title>
+    <link rel="stylesheet" href="../css/especificidad.css">
+</head>
+<body>
+    <h1>Título sin clase</h1>
+    <h1 class="h1-clase">Este es el título con clase</h1>
+    <h1 id="h1-id">Este es el título con id</h1>
+    <h1 id="h1-id" class="h1-clase">Este es el título con id y clase</h1>
+    <h1 id="h1-id" class="h1-clase" style="color:black">Este es el título con id,clase y style (Prevalce el style)</h1>
+    <p>En un lugar de la mancha de cuyo nombre no quiero acordarme, vivía un hidalgo español</p>
+</body>
+</html>

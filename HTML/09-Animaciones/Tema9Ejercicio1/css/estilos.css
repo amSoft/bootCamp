@@ -1,0 +1,19 @@
+.btn-modern{
+    margin: 100px 0 0 100px;
+    height: 80px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 40px;
+    transition: all 0.4s;
+}
+
+
+.btn-modern:hover{
+    transform: translate(-5px);
+    content:'hover';
+    color:white;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px 5px  black;
+   
+}

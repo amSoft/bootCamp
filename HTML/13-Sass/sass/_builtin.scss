@@ -1,0 +1,13 @@
+@use "sass:string";
+@use "sass:math";
+
+
+//Funciones con String
+@debug "hola";
+$miString: "Helvetica";
+$newString: string.insert($miString," Bold",10);
+@debug $miString;
+@debug $newString;
+
+//Funciones con números
+@debug math.max(3,67,4,235,1);

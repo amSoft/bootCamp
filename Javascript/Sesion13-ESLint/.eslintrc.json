@@ -1,0 +1,9 @@
+//Archivo de configuración de reglas ESLint
+{
+    "rules": {
+        "eqeqeq": "warn",
+        "curly": "error",
+        "quotes": ["error", "double"],
+        "semi": ["error","never"]
+    }
+}

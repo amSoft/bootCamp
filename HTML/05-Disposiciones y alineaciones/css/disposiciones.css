@@ -1,0 +1,21 @@
+.div-1, .div-2 {
+    background-color: red;
+    /*Por defecto display: block;*/
+}
+.img {
+    width: 50px;
+    height: 50px;
+    
+    /*Por defecto display:inline-block;*/
+}
+.span-1, .span-2 {
+    background-color: rgb(179, 255, 0);
+    /*Por defecto display: inline;*/
+}
+
+.span-1{
+    float:left;
+}
+.span-2 {
+    float: right;
+}

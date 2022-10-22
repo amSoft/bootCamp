@@ -1,0 +1,15 @@
+#titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+   
+}
+.encabezado{
+    font-size: 24pt;
+    text-transform: uppercase;
+
+}
+
+#elemento-1 {
+    color:red;
+    font: size 2rem;
+}

@@ -1,0 +1,138 @@
+$color-main: #0075FF;
+
+@mixin btn-base {
+    padding: 0.25rem 1.5rem;
+    border-radius: 0.25rem;
+}
+
+@mixin btn-sm-modify {
+    font-size: 0.75;
+    padding: 0.1rem 1 rem;
+}
+
+.btn-main {
+    @include btn-base();
+    background-color: $color-main;
+    color: white;
+
+    border: none;
+
+    &:hover {
+        background-color:rgb(33, 57, 193);
+        //color: $color-main;
+    }
+
+    &-s {
+        @extend .btn-main;
+        @include btn-sm-modify();
+
+    }
+}
+
+
+.btn-sec {
+    @extend .btn-main;
+    background-color: transparent;
+    
+    color: black;
+    font-size: 2rem;
+
+    &:hover {
+        color: $color-main;
+        background-color: transparent;
+    }
+
+    &-s {
+        @extend .btn-sec;
+        font-size: 1rem;
+        padding: 0.1rem 1rem;
+    }
+}
+
+
+
+//Menús
+.main-menu {
+    margin-bottom: 0;
+    padding: 5px;
+    
+    
+
+    li {
+        display: inline;
+        list-style: none;
+        font-size: 1rem;
+
+        a{
+            color:#000;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+//Iconos
+.icon-sm {
+    i {
+        font-size: 0.75rem;
+        padding: 0.1rem 0.25rem;
+        border-radius: 50%;
+        box-shadow: 0 0 10px #00000040;
+
+
+        color: $color-main;
+
+    }
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    .icon {
+        color:$color-main;
+        font-size: 15rem;
+        text-align: center;
+    }
+
+    .description {
+        .title {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .text {
+            color:#888;
+            font-weight: 600;
+            text-align: center;
+        }
+    
+
+    }
+    .cta{
+        margin-top:3rem;
+        color:$color-main;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+.icon-desc{
+    displaY:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .icon{
+        padding:0;
+        font-size: 10rem;
+        color:$color-main;
+       
+
+    }
+    .title{
+        font-size: 1.5rem;
+        margin-top: -2rem;
+        font-weight: 600;
+    }
+}

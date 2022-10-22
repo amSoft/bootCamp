@@ -1,0 +1,47 @@
+//Componentes
+@use "../sass/componentes";
+
+//Mixing
+@use "../sass/mixing";
+
+//Bultin
+@use "../sass/builtin";
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: azure;
+    padding: 0.5rem;
+}
+h1{
+    margin:0;
+   @include mixing.formatoTexto()
+}
+p{
+    
+    width: 50rem;
+   
+    @include mixing.formatoTexto(red)
+
+}
+
+.lista{
+    width: 10rem;
+    background-color: aquamarine;
+    padding: 0.5rem;
+
+    ul{
+        margin:0 0.5rem;
+        li {
+            list-style: none;
+            &:hover{
+                color:white;
+            }
+        }
+    }
+}

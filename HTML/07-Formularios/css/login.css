@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&family=Ubuntu:wght@300;400;700&display=swap');
+* {
+    font-family: 'Ubuntu';
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    align-items:stretch;
+    gap:20px;
+}
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+    width: 450px;
+}
+.botones {
+    flex-direction: row;
+    /*align-self: flex-start;*/
+    align-items: center;
+    display:flex;
+    gap:20px;
+    width: 450px;
+}
+.google-btn{
+   background-color: #1A73E8;
+   border:none;
+   border-radius: 5px;
+   height: 40px;
+   display:flex;
+   align-items: center;
+   padding: 2px;
+   cursor:pointer;
+   align-self: flex-start;
+}
+.google-btn:hover{
+    opacity: 0.75;
+    
+}
+.google-btn span{
+    color:white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.google-btn picture{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+   
+}
+.google-btn picture img{
+    padding-top: 5px;;
+    width: 75%;
+}
+.twitter-btn{
+    color:#bbb;
+    background-color: #eee;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.separador{
+    display: flex;
+    width:100%;
+    gap:15px;
+}
+.separador hr{
+    flex-grow: 1;
+    border:none;
+    border-top:1px solid #ccc;
+}
+.separador span{
+    color:#bbb
+}
+.section-inputs{
+    display:flex;
+    gap:20px;
+    width: 80%;
+   
+}
+label {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+section-inputs label input {
+    width: 100%;
+    background-color: #f3f3f4;
+    border:none;
+    padding:10px 20px;
+    border-radius: 10px;
+    outline:none;
+    font-size: 14pt;
+}
+label input {
+    width: 80%;
+    background-color: #f3f3f4;
+    border:none;
+    padding:10px 20px;
+    border-radius: 10px;
+    outline:none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0,2s;
+}
+label input:hover{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+label input:focus{
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+label span{
+    font-weight: 500;
+}
+
+.checkbox-label{
+    display:flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+#checkbox{
+    width: 40px;
+}
+.checkbox-label span {
+    font-weight: 400;
+    gap:0px;
+}
+
+.submit-btn {
+    background-color: #ea4c89;
+    color:white;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+
+}

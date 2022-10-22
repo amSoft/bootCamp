@@ -1,0 +1,39 @@
+div {
+    border:1px solid gray;
+    padding: 5px;
+    margin: 5px
+}
+
+.relative {
+    position:relative;
+    left:80px;
+
+}
+
+/* Posicionamiento fijo (Barras de herramientas)*/
+.fixed {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+}
+/* Posicionamiento absoluto*/
+.absolute {
+    position:absolute;
+    top:0px;
+    bottom:30px;
+}
+
+.relative.contenedor{
+    width: 300px;
+    height: 800px;
+    background-color: blue;
+}
+
+/* Posicionamiento pegajoso (Menús)*/
+.sticky {
+    position: sticky;
+    background-color: bisque;
+    color: aqua;
+    top:0px;
+    z-index: 2;
+}

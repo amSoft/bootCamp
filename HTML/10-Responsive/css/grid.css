@@ -1,0 +1,18 @@
+.contenedor{
+    display:grid;
+    gap:0.5rem;
+    column-gap: 0.2rem;
+    row-gap:0.5 rem;
+    grid-template-columns: auto auto auto ;
+}
+.item{
+    background-color: aquamarine;
+    padding: 0.25 rem;
+    font-size: 2rem;
+    border: solid 1px blue
+}
+
+.item1{
+    /*grid-column: filaInicio/filaFinal*/
+    grid-column: 1 /  3;
+}

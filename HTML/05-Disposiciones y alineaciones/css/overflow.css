@@ -1,0 +1,46 @@
+/* El texto que no cabe en el contenedor no se muestra*/
+.contenedor-hidden{
+    background-color: bisque;
+    width: 200;
+    height: 100;
+    padding: 15px;
+    overflow:hidden;
+}
+
+/* Si no cabe en el contenedor se muestra un scroll*/
+.contenedor-scroll{
+    background-color: bisque;
+    width: 200;
+    height: 100;
+    padding: 15px;
+    overflow: scroll;
+}
+
+/* Si no cabe en el contenedor se muestra un scroll*/
+.contenedor-scroll-x{
+    background-color: bisque;
+    width: 200;
+    height: 100;
+    padding: 15px;
+    overflow-x: hiden;
+    overflow-y: scroll;
+}
+
+/* Si no cabe en el contenedor se muestra un scroll*/
+.contenedor-visible{
+    background-color: bisque;
+    width: 200;
+    height: 100;
+    padding: 15px;
+    overflow: visible;
+}
+
+/* Si no cabe en el contenedor se muestra un scroll*/
+.contenedor-auto{
+    background-color: bisque;
+    width: 200;
+    height: 100;
+    padding: 15px;
+    overflow: auto;
+}
+

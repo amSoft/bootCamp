@@ -1,0 +1,49 @@
+.btn {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  color: darkslategray;
+}
+.btn:hover {
+  color: crimson;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: azure;
+  padding: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  background-color: azure;
+  color: darkblue;
+}
+
+p {
+  width: 50rem;
+  background-color: azure;
+  color: darkblue;
+}
+
+.lista {
+  width: 10rem;
+  background-color: aquamarine;
+  padding: 0.5rem;
+}
+.lista ul {
+  margin: 0 0.5rem;
+}
+.lista ul li {
+  list-style: none;
+}
+.lista ul li:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

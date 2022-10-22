@@ -1,0 +1,30 @@
+html {
+    padding: 15px;
+}
+h1 {
+    color:red;
+}
+/* Comentarios en CSS */
+p {
+    color:blue;
+    font-size:16pt;
+}
+
+#noticias{
+    color: green;
+    font-size: 12pt;
+}
+
+.encabezado{
+    font-size: 24pt;
+    text-transform: uppercase;
+
+}
+
+/* Asigna propiedades a todos los elementos, salvo los que se sobreescriben*/
+*.warning{
+    color: aquamarine;
+}
+.autor, .libro {
+    text-decoration: underline;
+}

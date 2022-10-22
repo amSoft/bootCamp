@@ -1,0 +1,8 @@
+
+$bg-color:red;
+
+@mixin formatoTexto($bg-color:black){
+    background-color: azure;
+    
+    color: darkblue;
+}

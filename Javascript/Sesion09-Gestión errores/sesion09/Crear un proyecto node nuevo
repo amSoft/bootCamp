@@ -1,0 +1,7 @@
+ Crear un proyecto node nuevo
+    1º crear la carpeta del proyecto
+    2º desde la terminal, ejecutar el comando npm init -y
+
+
+Instalar librería logs winston
+    Ejecutar desde la terminal npm install winston
